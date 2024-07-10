@@ -18,7 +18,7 @@ import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class CrptApi {
-    private static final String API_CREATE_DOCUMENT_URL = "http://localhost:8080/create";
+    private static final String API_CREATE_DOCUMENT_URL = "https://ismp.crpt.ru/api/v3/lk/documents/create";
     private final HttpClient httpClient;
     private final AtomicInteger requestCount;
     private final long timeIntervalMillis;
